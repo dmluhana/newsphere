@@ -24,11 +24,11 @@ struct WhatsNewsphereView: View {
         ZStack {
             
             if currentPage == 1 {
-                ScreenView(image: "news", title: "What is Newsphere", detail: "Newsphere is an app that allows users to search a large data base of articles and save them to use later for their school projects.", bgColor: Color("brown1"))
+                ScreenView(image: "news", title: "What is Newsphere", detail: "Newsphere is an app that allows users to search a large database of articles and save them to use later for their school projects.", bgColor: Color("brown1"))
                     .transition(.scale)
             }
             if currentPage == 2 {
-                ScreenView(image: "search", title: "The Search", detail: "Students can use the home page to search for a certain number of articles using a keyword that would match the project they are working on. ", bgColor: Color("brown2"))
+                ScreenView(image: "search", title: "The Search", detail: "Students can use the home page to search using a keyword function as well as sort the articles by their preferred method.", bgColor: Color("brown2"))
                     .transition(.scale)
             }
             if currentPage == 3 {

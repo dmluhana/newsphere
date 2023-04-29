@@ -56,7 +56,8 @@ struct ArticleView: View {
                                 .frame(width: 35, height: 35)
                             
                             VStack(alignment: .leading, spacing: 4) {
-                                Text(article.url)
+                                
+                                Link(article.url, destination: URL(string: article.url)!)
                                 Text("URL")
                             }
                             .padding(.leading, 20)
